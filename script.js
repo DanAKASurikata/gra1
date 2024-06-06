@@ -1,21 +1,19 @@
 //main page counting 
 let cislonGL = 0;
 function plusGl() {
+    cislonGL++
     document.getElementById("cisloGl").innerText = cislonGL;
     document.getElementById("cisloGl").style.color = 'lightgreen' ;
 }
 function minusGl() {
-    cislonGL = cislonGL - 999
+    cislonGL--
     document.getElementById("cisloGl").innerText = cislonGL;
     document.getElementById("cisloGl").style.color = 'red' ;
 }
 
 //start of the game - hide of main page
 function hideGl() {
-    const elements = document.querySelectorAll('.stranaGlwna');
-    elements.forEach(element => {
-        element.classList.add('hidden');
-    });
+    window.open("/strana1.html","_self");
 }
 
 
