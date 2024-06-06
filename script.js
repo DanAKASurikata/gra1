@@ -1,12 +1,11 @@
 //main page counting 
 let cislonGL = 0;
 function plusGl() {
-    cislonGL++
     document.getElementById("cisloGl").innerText = cislonGL;
     document.getElementById("cisloGl").style.color = 'lightgreen' ;
 }
 function minusGl() {
-    cislonGL--
+    cislonGL = cislonGL - 999
     document.getElementById("cisloGl").innerText = cislonGL;
     document.getElementById("cisloGl").style.color = 'red' ;
 }
