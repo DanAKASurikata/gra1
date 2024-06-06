@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(38, 79, 120);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    color: whitesmoke;
+}
+
+h1.stranaTemp {
+    color: whitesmoke;
+}
+
+p {
+    color: whitesmoke;
+}
+
+button.cisilkaGl {
+    color: cadetblue;
+    border-width: 4px;
+    border-radius: 10px;
+    background-color: rgb(188, 168, 143);
+    width: 50px;
+    height: 50px;
+    font-size: 180%;
+    font-weight: 999;
+}
+button.startGl {
+    color: chartreuse;
+    background-color: darkslateblue;
+    border-color: lightslategray;
+    border-width: 6px;
+    border-radius: 8px;
+    font-size: 180%;
+    font-weight: 800;
+    width: 250px;
+    height: 60px;
+}
+
+span.cisilkaGl {
+    color: whitesmoke;
+    font-size: 250%;
+}
+
+.hidden {
+    display: none;
+}

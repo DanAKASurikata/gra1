@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skrýt a Ukázat Elementy</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="to-hide">Element 1</div>
+    <div class="to-hide">Element 2</div>
+    <div class="to-hide">Element 3</div>
+    <button onclick="hideElements()">Skrýt Elementy</button>
+    <button onclick="showElements()">Ukázat Elementy</button>
+
+    <script>
+        function hideElements() {
+            const elements = document.querySelectorAll('.to-hide');
+            elements.forEach(element => {
+                element.classList.add('hidden');
+            });
+        }
+
+        function showElements() {
+            const elements = document.querySelectorAll('.to-hide');
+            elements.forEach(element => {
+                element.classList.remove('hidden');
+            });
+        }
+    </script>
+</body>
+</html>
