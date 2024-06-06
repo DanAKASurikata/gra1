@@ -1,1 +1,3 @@
-test :)
+Učím se JS a další věci takže ta kvalita tomu odpovídá...
+
+I learning JS and other things so the quality of things here is equal to it
