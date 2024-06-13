@@ -12,8 +12,16 @@ p {
     color: whitesmoke;
 }
 
-h1.nadpisTempowy {
+h1 {
     color: darkseagreen;
+}
+
+button.vyberVtipu {
+    background-color:  cadetblue;
+    color: lightgoldenrodyellow;
+    width: 200px;
+    height: 30px;
+    font-size: 125%;
 }
 
 button.cisilkaGl {
