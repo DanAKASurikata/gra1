@@ -11,6 +11,21 @@ function minusGl() {
     document.getElementById("cisloGl").style.color = 'red' ;
 }
 
+//vtip1 selected
+function vtip1() {
+    window.open("/vtip1.html","_self");
+}
+
+//vtip2 selected
+function vtip2() {
+    window.open("/vtip2.html","_self");
+}
+
+//vtip3 selected
+function vtip3() {
+    window.open("/vtip3.html","_self");
+}
+
 //start of the game - hide of main page
 function hideGl() {
     window.open("/strana1.html","_self");
